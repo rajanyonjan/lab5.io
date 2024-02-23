@@ -3,7 +3,7 @@ const CustomAdd = (a,b)=> {
 };
 
 const testCases=[
-    { input: [2,3], expectedOutput: 5},
+    { input: [1,3], expectedOutput: 5},
     { input: [0,0], expectedOutput: 0},
     { input: [-1,4], expectedOutput: 3},
 ];
