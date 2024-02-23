@@ -13,10 +13,10 @@ testCases.forEach((testCases) => {
     const result = CustomAdd(testCases.input[0], testCases.input[1]);
 
     if(result === testCases.expectedOutput){
-        console.log(`Test passed: $(testCase.input) added correctly`);
+        console.log(`Test passed: ${testCases.input} added correctly`);
     }else{
         console.error(
-            `Test failed: Expected $(testCase.expectedOutput),got $(result)`
+            `Test failed: Expected ${testCases.expectedOutput},got ${result}`
         );
     }
 
