@@ -1,4 +1,4 @@
-const CustomAdd = (a,b)=> {
+const CustomSubstract = (a,b)=> {
     return a-b;
 };
 
@@ -10,7 +10,7 @@ const testCases=[
 
 //Run Tests
 testCases.forEach((testCases) => {
-    const result = CustomAdd(testCases.input[0], testCases.input[1]);
+    const result = CustomSubtract(testCases.input[0], testCases.input[1]);
 
     if(result === testCases.expectedOutput){
         console.log(`Test passed: ${testCases.input} subtract correctly`);
